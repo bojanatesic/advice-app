@@ -1,4 +1,4 @@
-https://bojanatesic.github.io/advice-app/
+https://bojana-advice-app.netlify.app/
 
 App that gives you free advices.
 
