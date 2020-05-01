@@ -10,9 +10,8 @@ function App() {
       .then(response => response)
       .catch(error => console.log(error))
   }
-
-  useEffect(() => {
-    randomAdvice()
+  useEffect(() => { 
+    randomAdvice() // eslint-disable-next-line
   }, [])
 
   const randomAdvice = () => {
@@ -26,6 +25,8 @@ function App() {
     <div className="container">
       <div className="box">
         <span className="advice"> {advice} </span>
+      </div>
+      <div className="btn-div">
         <button onClick={() => randomAdvice()} className="advice-btn">Get Advice</button>
       </div>
     </div>
